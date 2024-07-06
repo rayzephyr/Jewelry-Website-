@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>Login - Jewelry Website</title>
+    <link rel="stylesheet" href="style2.css">
+    <script>
+        function validateForm() {
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+
+            if (email == "" || password == "") {
+                alert("Please fill in all fields.");
+                return false;
+            }
+             
+            window.location.href = "desidanglers.html";
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form id="loginForm" onsubmit="return validateForm()">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="Signup.html">Sign up</a></p>
+    </div>
+</body>
+</html>

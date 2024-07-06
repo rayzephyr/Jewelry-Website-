@@ -1,0 +1,79 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #FFEB3B; /* Yellow background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #FFFFFF; /* White background for the form container */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.sign-up-form {
+    text-align: center;
+}
+
+.sign-up-form h1 {
+    color: #FFC107; /* Darker yellow for headings */
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #FFC107; /* Darker yellow for the button */
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #FFA000; /* Slightly darker shade on hover */
+}
+
+.sign-in-link {
+    margin-top: 15px;
+    color: #666;
+}
+
+.sign-in-link a {
+    color: #FFC107; /* Darker yellow for the link */
+    text-decoration: none;
+}
+
+.sign-in-link a:hover {
+    text-decoration: underline;
+}
